@@ -1,0 +1,23 @@
+@media screen and (max-width:767px) {
+    .timer__block {
+        max-width: 150px;
+        width: 150px;    
+        min-height: 150px;
+        font-size: 5em;
+    }
+    .content .timer {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:576px) {
+    .timer__block {  
+        font-size: 3em;
+        min-height: 100px;
+    }
+}
+@media screen and (max-width:320px) {
+    .timer__block {  
+        font-size: 2em;
+        min-height: 50px;
+    }
+}
